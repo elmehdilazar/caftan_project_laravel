@@ -1,6 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CartController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SessionController;
+use App\Http\Controllers\CategorieProductController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::apiResource('users',UserController::class);
+Route::apiResource('carts',CartController::class);
+Route::apiResource('products',ProductController::class);
+Route::apiResource('sessions',SessionController::class);
+Route::apiResource('categories',CategorieProductController::class);
