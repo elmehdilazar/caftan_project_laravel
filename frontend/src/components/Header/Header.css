@@ -1,0 +1,44 @@
+
+/* Header */
+.top-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 0;
+}
+.top-header .navbar button.navbar-toggler {
+    color: #262626;
+    border-color: #262626;
+}
+.top-header .navbar a.navbar-brand {
+    font-family: Playfair;
+    font-weight: 900;
+    font-size: 1.95rem;
+}
+#navbarSupportedContent ul.navbar-nav {
+    margin: 0 auto;
+}
+.top-header .navbar .dropdown-menu {
+    width: 20rem;
+    box-shadow: 0rem 10px 15px -15px rgba(0,0,0,.5);
+}
+.top-header .navbar .dropdown-menu a.nav-link {
+    text-align: center;
+}
+.top-header .navbar .nav-icons a.icon {
+    color: #282828;
+    font-size: 1.25rem;
+    position: relative;
+    margin-left: 1.5rem;
+}
+.top-header .navbar .nav-icons a.icon span.cart-num {
+    position: absolute;
+    background-color: #fc1515;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+    top: -9px;
+    right: -9px;
+}

@@ -1,0 +1,44 @@
+
+.Adiv{
+    max-width: 1400px;
+    height: 780px;
+    margin: auto;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+}
+
+
+.Bdiv{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-position 2.5s ease; /* Smooth transition */
+    
+}
+.arrow-right ,.arrow-left{
+    color: white;
+    z-index: 1;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.arrow-left{
+ left: 15px;
+}
+.arrow-right{
+    right: 15px;
+}
+.Cdiv{
+    display: flex;
+    top:1rem;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
